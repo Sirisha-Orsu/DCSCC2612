@@ -1,0 +1,33 @@
+step 1: Create a folder like eg "DCSCCuID" in any
+       drive 
+step 2: Open the folder--> go to address bar--> type
+            cmd
+step 3: Command prompt will be opened 
+           C:/DCSCCuid>
+step 4:give the command to check whether git is 
+           installed or not 
+           git status
+if git installed, it will show as not initialized 
+if not installed, it will show as git is not recognised
+as internal or external command
+step 5: Once git is installed, give the following          command to make your folder as git folder
+           git init
+step 6: After initializing you folder as git repository
+           open some editor and type java or Python 
+        program and save it in your folder DCSCCuid
+step 7: Come back to command prompt and give
+            the following command to add your program into git repository
+           git add programname.extension
+     eg: git add Sample.java
+step 8: after adding program into repo, if there are 
+           any changes to be done you can make here 
+           and then commit the changes by using            following command:
+              git commit -m "Committed changes"
+step 9: As all changes are committed, now we can         push code from local repo to remote repo by 
+        using the following command:
+          git push -u origin master
+step 10: If it throws an error msg like "set your origin" then goto github--> create new repository--> get https link (copy) and paste it in git 
+by using following command:
+    git remote add origin "https link paste here"
+step 11: Now again give command as 
+      git push --set-upstream origin master
